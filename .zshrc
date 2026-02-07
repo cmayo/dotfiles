@@ -125,3 +125,4 @@ eval "$(rbenv init -)"
 [[ -f /Users/cmayo/.dart-cli-completion/zsh-config.zsh ]] && . /Users/cmayo/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
+eval "$(zellij setup --generate-auto-start zsh)"
