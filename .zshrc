@@ -114,15 +114,15 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-export FVM_CACHE_PATH="/Users/cmayo/.fvm"
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(rbenv init -)"
+#export FVM_CACHE_PATH="/Users/cmayo/.fvm"
+#export PYENV_ROOT="$HOME/.pyenv"
+#[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv init -)"
+#eval "$(rbenv init -)"
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall
-[[ -f /Users/cmayo/.dart-cli-completion/zsh-config.zsh ]] && . /Users/cmayo/.dart-cli-completion/zsh-config.zsh || true
+#[[ -f /Users/cmayo/.dart-cli-completion/zsh-config.zsh ]] && . /Users/cmayo/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
-eval "$(zellij setup --generate-auto-start zsh)"
+#eval "$(zellij setup --generate-auto-start zsh)"
